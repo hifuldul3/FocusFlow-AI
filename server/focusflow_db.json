@@ -1,0 +1,573 @@
+{
+  "users": [
+    {
+      "id": "u_arun",
+      "name": "Arun",
+      "email": "arun@nit.edu",
+      "password_hash": "aee0dd68b9dd667006406c60d441045a806548a058c4f1f7369cb8c16a9d61bd",
+      "created_at": "2026-10-05T08:26:29.421Z"
+    },
+    {
+      "id": "u_demo",
+      "name": "Demo Student",
+      "email": "demo@focusflow.ai",
+      "password_hash": "bc17a27d0836b01501f05d146429f2873580c53bb46878f6ac8ac643bef885ba",
+      "created_at": "2026-10-05T08:26:29.421Z"
+    },
+    {
+      "id": "u_1791190128559",
+      "name": "Hiful",
+      "email": "dulhifull.al25@bitsathy.ac.in",
+      "password_hash": "47151fcd205b103dbffb9eff5044ab06b7d55cdfada643c34abe3debeed83604",
+      "created_at": "2026-10-05T08:48:48.559Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "p_arun",
+      "user_id": "u_arun",
+      "name": "hiful",
+      "age": 21,
+      "college": "Bannari amman institude of technology",
+      "department": "Artificial intelligence and machine learning",
+      "year_of_study": "2nd year",
+      "wake_time": "07:00",
+      "sleep_time": "23:00",
+      "preferred_work_period": "morning",
+      "usual_busy_windows": [
+        {
+          "day": "Monday",
+          "start": "08:30",
+          "end": "16:30",
+          "label": "College Lectures"
+        },
+        {
+          "day": "Tuesday",
+          "start": "08:30",
+          "end": "16:30",
+          "label": "College Lectures"
+        },
+        {
+          "day": "Wednesday",
+          "start": "08:30",
+          "end": "16:30",
+          "label": "College Lectures"
+        },
+        {
+          "day": "Thursday",
+          "start": "08:30",
+          "end": "16:30",
+          "label": "College Lectures"
+        },
+        {
+          "day": "Friday",
+          "start": "08:30",
+          "end": "16:30",
+          "label": "College Lectures"
+        }
+      ],
+      "usual_free_windows": [
+        {
+          "day": "Monday",
+          "start": "18:00",
+          "end": "21:00"
+        },
+        {
+          "day": "Tuesday",
+          "start": "18:00",
+          "end": "21:00"
+        },
+        {
+          "day": "Wednesday",
+          "start": "18:00",
+          "end": "21:00"
+        },
+        {
+          "day": "Thursday",
+          "start": "18:00",
+          "end": "21:00"
+        },
+        {
+          "day": "Friday",
+          "start": "18:00",
+          "end": "21:00"
+        },
+        {
+          "day": "Saturday",
+          "start": "10:00",
+          "end": "20:00"
+        },
+        {
+          "day": "Sunday",
+          "start": "14:00",
+          "end": "19:00"
+        }
+      ],
+      "weekend_pattern": {
+        "saturday": "Mostly free for projects & personal study",
+        "sunday": "Family & Rest"
+      },
+      "holiday_category": "Mixed",
+      "default_buffer_mins": 15,
+      "personalization_enabled": true
+    },
+    {
+      "id": "p_u_1791190128559",
+      "user_id": "u_1791190128559",
+      "name": "Hiful",
+      "college": "Bannari amman institude of technology",
+      "department": "Artificial intelligence and machine learning",
+      "year_of_study": "2nd Year",
+      "wake_time": "07:00",
+      "sleep_time": "23:00",
+      "preferred_work_period": "evening",
+      "usual_busy_windows": [
+        {
+          "day": "Monday",
+          "start": "08:30",
+          "end": "16:30",
+          "label": "College Lectures"
+        }
+      ],
+      "usual_free_windows": [
+        {
+          "day": "Monday",
+          "start": "18:00",
+          "end": "21:00"
+        }
+      ],
+      "weekend_pattern": {
+        "saturday": "Free for projects",
+        "sunday": "Personal Rest"
+      },
+      "holiday_category": "Mixed",
+      "default_buffer_mins": 15,
+      "personalization_enabled": true
+    }
+  ],
+  "overrides": [
+    {
+      "id": "ov_1791189474870",
+      "user_id": "u_arun",
+      "date": "2026-10-05",
+      "start_time": "19:00",
+      "end_time": "22:00",
+      "is_available": true,
+      "reason": "Tonight availability override"
+    },
+    {
+      "id": "ov_1791190886152",
+      "user_id": "u_arun",
+      "date": "2026-10-05",
+      "start_time": "19:00",
+      "end_time": "22:00",
+      "is_available": true,
+      "reason": "Tonight availability override"
+    },
+    {
+      "id": "ov_1791190897268",
+      "user_id": "u_arun",
+      "date": "2026-10-05",
+      "start_time": "19:00",
+      "end_time": "22:00",
+      "is_available": true,
+      "reason": "Tonight availability override"
+    }
+  ],
+  "events": [
+    {
+      "id": "e_1",
+      "user_id": "u_arun",
+      "title": "College Cultural Fest Committee Meeting",
+      "date": "2026-10-05",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "category": "College Event"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t_1791190894759",
+      "user_id": "u_arun",
+      "title": "DBMS Assignment",
+      "description": "",
+      "category": "Academic",
+      "deadline": "2026-10-06T12:59:00.000Z",
+      "estimated_duration": 120,
+      "actual_duration": 0,
+      "remaining_duration": 120,
+      "importance": "MEDIUM",
+      "difficulty": "Moderate",
+      "priority_score": 49,
+      "priority_level": "LOW",
+      "preferred_work_windows": [
+        "evening"
+      ],
+      "status": "scheduled",
+      "progress_percentage": 0,
+      "planning_buffer": 15,
+      "created_at": "2026-10-05T09:01:34.759Z",
+      "updated_at": "2026-10-05T09:01:34.759Z"
+    },
+    {
+      "id": "t_1791189498078",
+      "user_id": "u_arun",
+      "title": "Python Assignment",
+      "description": "",
+      "category": "Project",
+      "deadline": "2026-10-06T03:08:00.000Z",
+      "estimated_duration": 60,
+      "actual_duration": 0,
+      "remaining_duration": 60,
+      "importance": "MEDIUM",
+      "difficulty": "Easy",
+      "priority_score": 56,
+      "priority_level": "MEDIUM",
+      "preferred_work_windows": [
+        "evening"
+      ],
+      "status": "scheduled",
+      "progress_percentage": 0,
+      "planning_buffer": 15,
+      "created_at": "2026-10-05T08:38:18.078Z",
+      "updated_at": "2026-10-05T08:38:18.078Z"
+    },
+    {
+      "id": "t_1791189455567",
+      "user_id": "u_arun",
+      "title": "DBMS Assignment",
+      "description": "",
+      "category": "Academic",
+      "deadline": "2026-10-06T12:59:00.000Z",
+      "estimated_duration": 120,
+      "actual_duration": 1,
+      "remaining_duration": 119,
+      "importance": "MEDIUM",
+      "difficulty": "Moderate",
+      "priority_score": 49,
+      "priority_level": "LOW",
+      "preferred_work_windows": [
+        "evening"
+      ],
+      "status": "in_progress",
+      "progress_percentage": 0,
+      "planning_buffer": 15,
+      "created_at": "2026-10-05T08:37:35.567Z",
+      "updated_at": "2026-10-05T08:37:35.567Z"
+    },
+    {
+      "id": "t_1",
+      "user_id": "u_arun",
+      "title": "DBMS Assignment",
+      "description": "Complete ER diagram design and SQL query normalization exercises.",
+      "category": "Academic",
+      "deadline": "2026-10-06T23:59:00",
+      "estimated_duration": 120,
+      "actual_duration": 1,
+      "remaining_duration": 119,
+      "importance": "HIGH",
+      "difficulty": "Moderate",
+      "priority_score": 57,
+      "priority_level": "MEDIUM",
+      "preferred_work_windows": [
+        "evening"
+      ],
+      "status": "in_progress",
+      "progress_percentage": 0,
+      "planning_buffer": 10,
+      "created_at": "2026-10-05T08:26:29.421Z",
+      "updated_at": "2026-10-05T08:27:34.885Z",
+      "delay_reason": "Couldn't focus",
+      "subtasks": [
+        {
+          "title": "Part 1: Concept & Outline",
+          "estimated_duration_mins": 45
+        },
+        {
+          "title": "Part 2: Implementation & Draft",
+          "estimated_duration_mins": 60
+        },
+        {
+          "title": "Part 3: Review & Finalize",
+          "estimated_duration_mins": 35
+        }
+      ]
+    },
+    {
+      "id": "t_2",
+      "user_id": "u_arun",
+      "title": "Python Assignment",
+      "description": "Implement pandas data processing script and unit tests.",
+      "category": "Academic",
+      "deadline": "2026-10-09T23:59:00",
+      "estimated_duration": 90,
+      "actual_duration": 0,
+      "remaining_duration": 90,
+      "importance": "MEDIUM",
+      "difficulty": "Easy",
+      "priority_score": 40,
+      "priority_level": "LOW",
+      "preferred_work_windows": [
+        "evening"
+      ],
+      "status": "scheduled",
+      "progress_percentage": 0,
+      "planning_buffer": 15,
+      "created_at": "2026-10-05T08:26:29.421Z",
+      "updated_at": "2026-10-05T08:27:34.001Z",
+      "subtasks": [
+        {
+          "title": "Part 1: Concept & Outline",
+          "estimated_duration_mins": 45
+        },
+        {
+          "title": "Part 2: Implementation & Draft",
+          "estimated_duration_mins": 60
+        },
+        {
+          "title": "Part 3: Review & Finalize",
+          "estimated_duration_mins": 35
+        }
+      ]
+    },
+    {
+      "id": "t_3",
+      "user_id": "u_arun",
+      "title": "AI Project Prototype",
+      "description": "Train local baseline sentiment model and set up FastAPI route.",
+      "category": "Project",
+      "deadline": "2026-10-11T23:59:00",
+      "estimated_duration": 240,
+      "actual_duration": 0,
+      "remaining_duration": 240,
+      "importance": "HIGH",
+      "difficulty": "Difficult",
+      "priority_score": 50,
+      "priority_level": "MEDIUM",
+      "preferred_work_windows": [
+        "weekend",
+        "evening"
+      ],
+      "status": "scheduled",
+      "progress_percentage": 0,
+      "planning_buffer": 30,
+      "created_at": "2026-10-05T08:26:29.421Z",
+      "updated_at": "2026-10-05T08:26:29.421Z"
+    }
+  ],
+  "subtasks": [
+    {
+      "id": "st_1",
+      "task_id": "t_1",
+      "title": "Draft ER Diagram",
+      "estimated_duration_mins": 45,
+      "completed": false
+    },
+    {
+      "id": "st_2",
+      "task_id": "t_1",
+      "title": "Write 3NF SQL Queries",
+      "estimated_duration_mins": 75,
+      "completed": false
+    },
+    {
+      "id": "st_3",
+      "task_id": "t_2",
+      "title": "Clean CSV Dataset with Pandas",
+      "estimated_duration_mins": 40,
+      "completed": false
+    },
+    {
+      "id": "st_4",
+      "task_id": "t_2",
+      "title": "Write PyTest test cases",
+      "estimated_duration_mins": 50,
+      "completed": false
+    }
+  ],
+  "schedule": [
+    {
+      "id": "sb_busy_510",
+      "user_id": "u_1791190128559",
+      "title": "College Lectures",
+      "date": "2026-10-05",
+      "start_time": "08:30",
+      "end_time": "16:30",
+      "duration_mins": 480,
+      "block_type": "event",
+      "status": "scheduled"
+    },
+    {
+      "id": "sb_busy_960",
+      "user_id": "u_arun",
+      "title": "College Cultural Fest Committee Meeting",
+      "date": "2026-10-05",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "duration_mins": 120,
+      "block_type": "event",
+      "status": "scheduled"
+    },
+    {
+      "id": "sb_task_t_1_1140",
+      "user_id": "u_arun",
+      "task_id": "t_1",
+      "title": "DBMS Assignment",
+      "date": "2026-10-05",
+      "start_time": "19:00",
+      "end_time": "21:09",
+      "duration_mins": 129,
+      "block_type": "task",
+      "status": "in_progress",
+      "priority_level": "MEDIUM"
+    },
+    {
+      "id": "sb_task_t_1791189498078_1140",
+      "user_id": "u_arun",
+      "task_id": "t_1791189498078",
+      "title": "Python Assignment",
+      "date": "2026-10-05",
+      "start_time": "19:00",
+      "end_time": "19:34",
+      "duration_mins": 34,
+      "block_type": "task",
+      "status": "scheduled",
+      "priority_level": "MEDIUM"
+    },
+    {
+      "id": "sb_task_t_3_1140",
+      "user_id": "u_arun",
+      "task_id": "t_3",
+      "title": "AI Project Prototype",
+      "date": "2026-10-05",
+      "start_time": "19:00",
+      "end_time": "20:59",
+      "duration_mins": 119,
+      "block_type": "task",
+      "status": "scheduled",
+      "priority_level": "MEDIUM"
+    },
+    {
+      "id": "sb_task_t_3_1184",
+      "user_id": "u_arun",
+      "task_id": "t_3",
+      "title": "AI Project Prototype",
+      "date": "2026-10-05",
+      "start_time": "19:44",
+      "end_time": "22:00",
+      "duration_mins": 136,
+      "block_type": "task",
+      "status": "scheduled",
+      "priority_level": "MEDIUM"
+    },
+    {
+      "id": "sb_task_t_1791190894759_1269",
+      "user_id": "u_arun",
+      "task_id": "t_1791190894759",
+      "title": "DBMS Assignment",
+      "date": "2026-10-05",
+      "start_time": "21:09",
+      "end_time": "22:00",
+      "duration_mins": 51,
+      "block_type": "task",
+      "status": "scheduled",
+      "priority_level": "LOW"
+    },
+    {
+      "id": "sb_task_t_1791189498078_1279",
+      "user_id": "u_arun",
+      "task_id": "t_1791189498078",
+      "title": "Python Assignment",
+      "date": "2026-10-05",
+      "start_time": "21:19",
+      "end_time": "22:00",
+      "duration_mins": 41,
+      "block_type": "task",
+      "status": "scheduled",
+      "priority_level": "MEDIUM"
+    }
+  ],
+  "focus_sessions": [
+    {
+      "id": "fs_1791188836391",
+      "user_id": "u_arun",
+      "task_id": "t_1",
+      "start_time": "2026-10-05T08:27:16.391Z",
+      "actual_duration_mins": 1,
+      "end_time": "2026-10-05T08:27:24.312Z",
+      "difficulty_rating": "Easy",
+      "took_longer_than_expected": true
+    },
+    {
+      "id": "fs_1791190864228",
+      "user_id": "u_arun",
+      "task_id": "t_1791189455567",
+      "start_time": "2026-10-05T09:01:04.228Z",
+      "actual_duration_mins": 1,
+      "end_time": "2026-10-05T09:01:14.855Z",
+      "difficulty_rating": "Difficult",
+      "took_longer_than_expected": true
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n_1791190894759",
+      "user_id": "u_arun",
+      "title": "New Task Added",
+      "message": "\"DBMS Assignment\" added to your queue (MEDIUM Priority).",
+      "type": "upcoming",
+      "is_read": false,
+      "task_id": "t_1791190894759",
+      "created_at": "2026-10-05T09:01:34.759Z"
+    },
+    {
+      "id": "n_1791189498078",
+      "user_id": "u_arun",
+      "title": "New Task Added",
+      "message": "\"Python Assignment\" added to your queue (MEDIUM Priority).",
+      "type": "upcoming",
+      "is_read": true,
+      "task_id": "t_1791189498078",
+      "created_at": "2026-10-05T08:38:18.078Z"
+    },
+    {
+      "id": "n_1791189455567",
+      "user_id": "u_arun",
+      "title": "New Task Added",
+      "message": "\"DBMS Assignment\" added to your queue (MEDIUM Priority).",
+      "type": "upcoming",
+      "is_read": true,
+      "task_id": "t_1791189455567",
+      "created_at": "2026-10-05T08:37:35.567Z"
+    },
+    {
+      "id": "n_1",
+      "user_id": "u_arun",
+      "title": "FocusFlow Activated",
+      "message": "Good morning Arun! DBMS Assignment is your highest priority today.",
+      "type": "upcoming",
+      "is_read": true,
+      "created_at": "2026-10-05T08:26:29.421Z"
+    }
+  ],
+  "insights": [
+    {
+      "id": "i_1",
+      "user_id": "u_arun",
+      "title": "Evening Peak Focus",
+      "summary": "You complete difficult tasks 35% more consistently between 6:00 PM and 9:00 PM.",
+      "details": "Based on your recent study history, evening blocks show higher focus retention.",
+      "category": "timing",
+      "created_at": "2026-10-05T08:26:29.421Z"
+    },
+    {
+      "id": "i_2",
+      "user_id": "u_arun",
+      "title": "Technical Task Buffering",
+      "summary": "Programming & database tasks often take ~20-30 minutes longer than initial estimates.",
+      "details": "FocusFlow automatically includes a 20-minute safety buffer for your academic technical tasks.",
+      "category": "estimation",
+      "created_at": "2026-10-05T08:26:29.421Z"
+    }
+  ]
+}
